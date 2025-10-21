@@ -58,9 +58,9 @@ int additional_number;
     }
 
 
-    cout << "Original array:" << endl;
-    display(numbers);
-    cout << "--- Sorting starts ---" << endl;
+    //cout << "Original array:" << endl;
+    //display(numbers);
+    //cout << "--- Sorting starts ---" << endl;
 
     if (sortType == "bubble") {
         bubbleSort(numbers);
@@ -75,9 +75,9 @@ int additional_number;
         return 1;
     }
 
-    cout << "--- Sorting finished ---" << endl;
-    std::cout << "Sorted array:" << std::endl;
-    display(numbers);
+   // cout << "--- Sorting finished ---" << endl;
+    //std::cout << "Sorted array:" << std::endl;
+    //display(numbers);
 
     return 0;
 }
