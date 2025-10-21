@@ -126,7 +126,7 @@ void bubbleSort(vector<int>& arr) {
     int n = arr.size();
     bool sorted;
     for (int j = 1; j <= n - 1; j++) {
-      display(arr);sorted = true;
+    sorted = true;
         for (int i = 0; i < n - j; i++) {
             if (arr[i] > arr[i + 1]) {
                 swap(arr[i], arr[i + 1]);
@@ -150,7 +150,7 @@ void insertionSort(vector<int>& arr) {
             j = j - 1;
         }
         arr[j + 1] = key;
-        display(arr);
+     
       }
     }
 
@@ -159,7 +159,7 @@ void insertionSort(vector<int>& arr) {
     int n = arr.size();
     int i, j, mi;
     
-    display(arr);
+
     for (i = 0; i < n - 1; i++) {
         mi = i; 
         for (j = i + 1; j < n; j++) {
@@ -172,7 +172,6 @@ void insertionSort(vector<int>& arr) {
             swap(arr[i], arr[mi]);
         }
         
-        display(arr);
       }
     }
 

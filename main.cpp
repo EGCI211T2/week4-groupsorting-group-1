@@ -64,7 +64,7 @@ int additional_number;
 
     if (sortType == "bubble") {
         bubbleSort(numbers);
-    } else if (sortType == "insert") {
+    } else if (sortType == "insertion") {
         insertionSort(numbers);
     } else if (sortType == "selection") {
         selectionSort(numbers);
