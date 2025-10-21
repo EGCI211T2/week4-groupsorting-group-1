@@ -45,6 +45,19 @@ vector<int> numbers;
         cerr << e.what() << endl;
         return 1;
     }
+
+int additional_number;
+    while (cin >> additional_number) {
+        numbers.push_back(additional_number);
+    }
+
+
+    if (numbers.empty()) {
+        cerr << "Error: No numbers provided." << endl;
+        return 1;
+    }
+
+
     cout << "Original array:" << endl;
     display(numbers);
     cout << "--- Sorting starts ---" << endl;
