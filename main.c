@@ -1,4 +1,4 @@
-#define N 6
+/* #define N 6
 #include <stdio.h>
 
 #include "sorting.h"
@@ -15,5 +15,5 @@ int main() {
    display(a,N);
  return 0;
 }
-
+*/
 
