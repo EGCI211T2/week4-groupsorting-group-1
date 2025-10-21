@@ -1,8 +1,7 @@
-compile: main.c 
-	 gcc  main.c -o ll
+compile: main.cpp
+	g++ main.cpp -o sort
+	run: sort
+	
 
-run: ll
-	 ./ll
-
-clean: ll
-	 rm ll
+clean:
+	rm -f sort
