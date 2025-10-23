@@ -15,7 +15,7 @@ int main() {
   // selectionSort(a,N);
    display(a,N);
  return 0;
-}
+} .....
  */
 
 #include <iostream>
